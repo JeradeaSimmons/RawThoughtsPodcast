@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RAW THOUGHTS PODCAST</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('Kenzie standing.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p></p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('links').style.display='block'" class="w3-button w3-black">links</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">RAW THOUGHTS PODCAST</p>
+    <p class="w3-large"></p>
+    
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="links" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('links').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Find me!</h1>
+    </div>
+    <div class="w3-container w3-black">
+     <a class="selectable" href="https://www.facebook.com/makenzie.tiegs208"><img height="50" src="facebook.png" alt=""></a>
+     <a class="selectable" href="https://www.instagram.com/rawthoughts.podcast/"><img height="50" src="IG.png" alt=""></a>
+     <a class="selectable" href="https://linktr.ee/rawthoughts.podcast"><img height="50" src="linkTree.png" alt=""></a>
+    </div>
+    
+    <div class="w3-container w3-black">
+      <h1>Listen here!</h1>
+    </div>
+    <div class="w3-container w3-black">
+     <a class="selectable" href="https://www.youtube.com/channel/UCIQkzGm10CBfiqaOokJWygg"><img height="50" src="youtube.png" alt=""></a>
+     <a class="selectable" href="https://open.spotify.com/show/5Q324MLEVXPUMk6JnaNgXa"><img height="50" src="spotify.webp" alt=""></a>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Send me a message today:</p>
+      <form action="mailto:jeradeasimmons@gmail.com" class="" method="post" target="_blank" enctype="text/plain">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Phone Number" required name="Phone Number"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p><button class="w3-button w3-black" type="submit" >SEND MESSAGE</button>
+        <p><button class="w3-button w3-black" type="reset" >RESET FORM</button>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="row w3-black">
+  <div class="col-md-4">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5Q324MLEVXPUMk6JnaNgXa?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+</div>
+
+</body>
+</html>
+
