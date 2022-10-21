@@ -36,7 +36,20 @@ body, html {height: 100%}
   </div>
   <div class="w3-display-bottomleft w3-container">
    
-    <p><button onclick="document.getElementById('guests').style.display='block'" class="w3-button w3-black">guests</button></p>
+    <p><button onclick="document.getElementById('guests').style.display='block'" class="w3-button w3-black"><h3>Guests</h3></button></p>
+  </div>
+  <div class="w3-display-bottomright w3-container">
+    <p>Send me a message today:</p>
+    <form action="mailto:M.rawthoughts@gmail.com" class="" method="post" target="_blank" enctype="text/plain">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Phone Number" required name="Phone Number"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit" >SEND MESSAGE</button>
+      <p><button class="w3-button w3-black" type="reset" >RESET FORM</button>
+      </p>
+    </form>
+    
   </div>
 </div>
 
@@ -65,16 +78,7 @@ body, html {height: 100%}
       <h1>Contact</h1>
     </div>
     <div class="w3-container">
-      <p>Send me a message today:</p>
-      <form action="mailto:M.rawthoughts@gmail.com" class="" method="post" target="_blank" enctype="text/plain">
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Phone Number" required name="Phone Number"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
-        <p><button class="w3-button w3-black" type="submit" >SEND MESSAGE</button>
-        <p><button class="w3-button w3-black" type="reset" >RESET FORM</button>
-        </p>
-      </form>
+   
     </div>
   </div>
 </div>
